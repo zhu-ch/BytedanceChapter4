@@ -1,8 +1,16 @@
 package com.bytedance.android.lesson.restapi.solution.utils;
 
 
+import android.net.Uri;
+import android.os.Parcel;
+import android.support.annotation.Nullable;
+
 import com.bytedance.android.lesson.restapi.solution.bean.Cat;
+import com.bytedance.android.lesson.restapi.solution.bean.FeedResponse;
+import com.bytedance.android.lesson.restapi.solution.bean.PostVideoResponse;
 import com.bytedance.android.lesson.restapi.solution.newtork.ICatService;
+import com.bytedance.android.lesson.restapi.solution.newtork.IMiniDouyinService;
+import com.bytedance.android.lesson.restapi.solution.Solution2C2Activity;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
